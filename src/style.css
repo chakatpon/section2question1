@@ -1,0 +1,23 @@
+.container {
+    display: flex; /* or inline-flex */
+    min-height: 600px;
+  }
+
+.item {
+    min-height: 600px;
+}
+
+.flex1 {
+    min-width: 200px;
+    align-self: flex-start;
+}
+
+.flex2 {
+    min-width: 100px;
+    flex-shrink: 100;
+}
+
+.flex3 {
+    min-width: 300px;
+    align-self: flex-end;
+}
